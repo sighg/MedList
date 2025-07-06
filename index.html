@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine List - Pharmaceutical Information</title>
+    
+    <!-- Link to your new external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="homepage-container">
+        <h1 class="site-title"><a href="/">Medicine List</a></h1>
+        
+        <div class="search-wrapper">
+            <form class="search-form" id="searchForm">
+                <input type="search" id="searchInput" name="q" class="search-form-input" placeholder="Search for medications..." autocomplete="off">
+                <button type="submit" class="search-form-submit">Search</button>
+            </form>
+            <p id="no-results">No medication found. Please try another search.</p>
+        </div>
+
+        <div class="analog-button-wrapper">
+            <a href="#" class="analog-button">ANALOG</a>
+        </div>
+    </main>
+
+    <!-- Link to your new external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
